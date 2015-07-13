@@ -1,17 +1,40 @@
 <!DOCTYPE html>
 <html
 <head>
+
 <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <style>
+    form {
+     width: 390px;
+     position: relative;
+        left: 540px;
+    }
     
+    #logo img {
+     position: relative;
+        left: 420px;
+        margin-top: 60px;
+    }
+    
+   /* #top {
+     padding: 10px 35px 0px 29px;
+    }*/
+    
+    #butt {
+     position: relative;
+        left: 320px;
+        margin-bottom: 60px;
+    }
+    
+    footer {}
 </style>
 </head>
 <body>
-        
+     
     <div class="row">
       <div class="col s6 offset-s8 grid-example"><span class="flow-text"></span>
     <div id="navigation">
@@ -23,9 +46,15 @@
       </div>
     </div>
     
-   <div>
-       <h3>Google</h3>
-       <input type="text"> 
+   <div id="logo">
+       <img src="google.jpg">
+       
+      <form>
+  <input type="text" name="username">
+    </form>
+          </div>
+          
+          <div id="butt">
        <a class="waves-effect waves-light btn"><i class="material-icons left"></i>Google search</a>
 <a class="waves-effect waves-light btn"><i class="material-icons right"></i>I'm feeling lucky</a
     </div> 
